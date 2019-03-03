@@ -1,6 +1,9 @@
-import random
+import random #for random number generation
+import time #to introduce delay
 print("A random number guessing game")
 num=random.randint(0,10)
+print("Generating random number....please wait....")
+time.sleep(3)
 print("Enter your guess")
 print("Max 3 guesses only")
 count=0
